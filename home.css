@@ -5,9 +5,13 @@ body {
 html {
 	height: 100%;
 }
-.imgcol {
-    object-fit: cover;
+.backpic {
+	object-fit: cover;
     height: 100vh;
     width: 100%;
     max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 50% 50%;
 }
